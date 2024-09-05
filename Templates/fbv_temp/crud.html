@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Student</title>
+</head>
+<body>
+    <h2>Create Student</h2>
+
+    <form method="post">
+        <table border="2">
+        {{form.as_table}}
+        {% csrf_token %}
+            </table>
+            <br/>
+        <input type="submit" name="" value="save"></br>
+        
+    </form>
+</body>
+</html>
